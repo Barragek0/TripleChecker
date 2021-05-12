@@ -1,0 +1,30 @@
+Check for triples in HSBGs.
+
+To authorize, we need to:
+-make a client credentials post request to receive an access token
+-store the access token in our app
+-provide the access token via an authorization header when requesting data
+-access token is valid for 24 hours.
+
+
+
+To get relevant information, we need a data flow:
+-splash page/start page. get access token here.
+-get current tavern tier and save TIER as a state variable. (necessary? just loading minions is fine).
+COOL FEATURE:
+-WHEN WE MAKE A GETMINIONDATA REQUEST, SET MINIONS TO NULL.
+-RENDER A BUTTON TO CONTINUE TO MINIONCHECKER ONLY IF MINIONS IF NOT NULL. OTHERWISE LOAD A SPINNER.
+-make a request to HS API that gets all minions of relevant tier.
+-render all minions and make them clickable so that user can select desired minions.
+-perform some mathematics based on desired minions and return a success chance.
+
+
+suggestions:
+-maybe move the getMinionData dispatch and minions state to calculator from api.
+
+Necessary dependencies:
+redux and react-redux - for state management. INSTALLED.
+redux-thunk - for asynchronous redux operations. INSTALLED.
+client-oauth2 - for getting oauth access token from blizzard API. INSTALLED.
+axios - for making API requests in general. INSTALLED.
+

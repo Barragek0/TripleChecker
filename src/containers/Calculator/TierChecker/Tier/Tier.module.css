@@ -1,0 +1,7 @@
+.Tier {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  box-sizing: border-box;
+}

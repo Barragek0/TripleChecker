@@ -1,0 +1,17 @@
+.ActiveType {
+  background-color: green;
+  width: 120px;
+}
+
+.InactiveType {
+  background-color: red;
+  width: 120px;
+}
+
+.Type {
+  margin: 10px auto 10px auto;
+  height: 30px;
+  width: 80px;
+  justify-content: center;
+  text-align: center;
+}

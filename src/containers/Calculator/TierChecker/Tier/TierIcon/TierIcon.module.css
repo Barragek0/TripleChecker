@@ -1,0 +1,13 @@
+.TierIcon {
+  display: flex;
+  box-sizing: border-box;
+  border: 10px red;
+  height: 100;
+  width: 100;
+  background-color: salmon;
+  justify-content: center
+}
+
+.TierIconImg {
+  width: 90%;
+}

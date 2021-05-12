@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.AppHeader {
+  height: 10vh;
+  background-color: #334c7e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.AppLink {
+  color: #61dafb;
+}
+
+.Calculator {
+  display: flex;
+  box-sizing: border-box;
+  margin: 1% 1% 1% 1%;
+  background-color: #fff759;
+  border: 10px solid #700887;
+  border-radius: 15px;
+  height: 85vh;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.CalculatorContent {
+  align-content: center;
+  justify-content: center;
+}
